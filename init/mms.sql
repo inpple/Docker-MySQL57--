@@ -1,4 +1,4 @@
-CREATE DATABASE MMS CHARACTER SET utf8;
-CREATE USER 'user'@'%' IDENTIFIED BY 'mysql';
-GRANT ALL PRIVILEGES ON user.* TO 'user'@'%' IDENTIFIED BY 'mysql';
+CREATE DATABASE mysqldb CHARACTER SET utf8;
+CREATE USER 'user'@'%' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON mysqldb.* TO 'user'@'%' IDENTIFIED BY 'password';    //%代表全部ip
 flush privileges;
